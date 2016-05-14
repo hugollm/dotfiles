@@ -1,0 +1,10 @@
+[alias]
+    s = status
+    d = diff
+    dc = diff --cached
+    t = "!tig --all"
+[user]
+    email = hugo.txt@gmail.com
+    name = Hugo Mota
+[core]
+    editor = vim

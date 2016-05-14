@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo ''
+
+cp -v ~/bin/* bin/
+cp -v ~/.* configs/ 2>/dev/null
+
+echo ''
+echo '  Use "git clean -f" to remove untracked files.'
+echo ''
